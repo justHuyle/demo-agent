@@ -1,0 +1,141 @@
+{
+  "domain": "stock",
+  "seed": 42,
+  "description": "Mock Vietnam Stock Knowledge Graph covering HOSE equities, financial indicators, sector classifications, and index constituents.",
+  "nodes": [
+    {
+      "id": "FPT",
+      "label": "FPT Corporation",
+      "type": "StockTicker",
+      "properties": {"market_cap_tier": "Mega_Cap", "exchange": "HOSE"}
+    },
+    {
+      "id": "VNM",
+      "label": "Vietnam Dairy Products JSC (Vinamilk)",
+      "type": "StockTicker",
+      "properties": {"market_cap_tier": "Mega_Cap", "exchange": "HOSE"}
+    },
+    {
+      "id": "HPG",
+      "label": "Hoa Phat Group",
+      "type": "StockTicker",
+      "properties": {"market_cap_tier": "Mega_Cap", "exchange": "HOSE"}
+    },
+    {
+      "id": "GAS",
+      "label": "PetroVietnam Gas JSC",
+      "type": "StockTicker",
+      "properties": {"market_cap_tier": "Mega_Cap", "exchange": "HOSE"}
+    },
+    {
+      "id": "HOSE_Exchange",
+      "label": "Ho Chi Minh City Stock Exchange",
+      "type": "Exchange",
+      "properties": {"trading_band": "+/-7.0%", "settlement_cycle": "T+2"}
+    },
+    {
+      "id": "IT_Sector",
+      "label": "Information Technology Sector",
+      "type": "Sector",
+      "properties": {"industry_code": "9530"}
+    },
+    {
+      "id": "Consumer_Staples_Sector",
+      "label": "Consumer Staples Sector",
+      "type": "Sector",
+      "properties": {"industry_code": "3500"}
+    },
+    {
+      "id": "Materials_Sector",
+      "label": "Materials & Industrial Metals Sector",
+      "type": "Sector",
+      "properties": {"industry_code": "1700"}
+    },
+    {
+      "id": "Energy_Sector",
+      "label": "Oil & Gas Energy Sector",
+      "type": "Sector",
+      "properties": {"industry_code": "0500"}
+    },
+    {
+      "id": "VN30_Index",
+      "label": "VN30 Blue-Chip Index",
+      "type": "MarketIndex",
+      "properties": {"basket_size": 30}
+    },
+    {
+      "id": "ROE_LTM",
+      "label": "Return on Equity (LTM)",
+      "type": "FinancialMetric",
+      "properties": {"high_threshold": ">=18.0%"}
+    },
+    {
+      "id": "DE_Ratio",
+      "label": "Debt to Equity Ratio",
+      "type": "FinancialMetric",
+      "properties": {"healthy_range": "0.6_to_1.5"}
+    },
+    {
+      "id": "PE_Ratio",
+      "label": "Price to Earnings Ratio",
+      "type": "FinancialMetric",
+      "properties": {"valuation_type": "Relative Valuation"}
+    },
+    {
+      "id": "Market_Cap",
+      "label": "Market Capitalization",
+      "type": "FinancialMetric",
+      "properties": {"mega_cap_threshold": ">=100000_billion_VND"}
+    },
+    {
+      "id": "State_Securities_Commission",
+      "label": "State Securities Commission of Vietnam",
+      "type": "RegulatoryBody",
+      "properties": {"acronym": "SSC"}
+    }
+  ],
+  "edges": [
+    {"source": "FPT", "target": "HOSE_Exchange", "relation": "LISTED_ON", "weight": 1.0},
+    {"source": "VNM", "target": "HOSE_Exchange", "relation": "LISTED_ON", "weight": 1.0},
+    {"source": "HPG", "target": "HOSE_Exchange", "relation": "LISTED_ON", "weight": 1.0},
+    {"source": "GAS", "target": "HOSE_Exchange", "relation": "LISTED_ON", "weight": 1.0},
+    {"source": "FPT", "target": "IT_Sector", "relation": "BELONGS_TO_SECTOR", "weight": 1.0},
+    {"source": "VNM", "target": "Consumer_Staples_Sector", "relation": "BELONGS_TO_SECTOR", "weight": 1.0},
+    {"source": "HPG", "target": "Materials_Sector", "relation": "BELONGS_TO_SECTOR", "weight": 1.0},
+    {"source": "GAS", "target": "Energy_Sector", "relation": "BELONGS_TO_SECTOR", "weight": 1.0},
+    {"source": "FPT", "target": "ROE_LTM", "relation": "TRACKED_BY_METRIC", "weight": 0.95},
+    {"source": "FPT", "target": "DE_Ratio", "relation": "TRACKED_BY_METRIC", "weight": 0.9},
+    {"source": "FPT", "target": "PE_Ratio", "relation": "TRACKED_BY_METRIC", "weight": 0.9},
+    {"source": "FPT", "target": "Market_Cap", "relation": "TRACKED_BY_METRIC", "weight": 0.85},
+    {"source": "VNM", "target": "ROE_LTM", "relation": "TRACKED_BY_METRIC", "weight": 0.9},
+    {"source": "VNM", "target": "DE_Ratio", "relation": "TRACKED_BY_METRIC", "weight": 0.85},
+    {"source": "HPG", "target": "ROE_LTM", "relation": "TRACKED_BY_METRIC", "weight": 0.85},
+    {"source": "HPG", "target": "Market_Cap", "relation": "TRACKED_BY_METRIC", "weight": 0.85},
+    {"source": "FPT", "target": "VN30_Index", "relation": "CONSTITUENT_OF", "weight": 1.0},
+    {"source": "VNM", "target": "VN30_Index", "relation": "CONSTITUENT_OF", "weight": 1.0},
+    {"source": "HPG", "target": "VN30_Index", "relation": "CONSTITUENT_OF", "weight": 1.0},
+    {"source": "HOSE_Exchange", "target": "State_Securities_Commission", "relation": "REGULATED_BY", "weight": 1.0}
+  ],
+  "triples": [
+    {"subject": "FPT", "predicate": "LISTED_ON", "object": "HOSE_Exchange"},
+    {"subject": "VNM", "predicate": "LISTED_ON", "object": "HOSE_Exchange"},
+    {"subject": "HPG", "predicate": "LISTED_ON", "object": "HOSE_Exchange"},
+    {"subject": "GAS", "predicate": "LISTED_ON", "object": "HOSE_Exchange"},
+    {"subject": "FPT", "predicate": "BELONGS_TO_SECTOR", "object": "IT_Sector"},
+    {"subject": "VNM", "predicate": "BELONGS_TO_SECTOR", "object": "Consumer_Staples_Sector"},
+    {"subject": "HPG", "predicate": "BELONGS_TO_SECTOR", "object": "Materials_Sector"},
+    {"subject": "GAS", "predicate": "BELONGS_TO_SECTOR", "object": "Energy_Sector"},
+    {"subject": "FPT", "predicate": "TRACKED_BY_METRIC", "object": "ROE_LTM"},
+    {"subject": "FPT", "predicate": "TRACKED_BY_METRIC", "object": "DE_Ratio"},
+    {"subject": "FPT", "predicate": "TRACKED_BY_METRIC", "object": "PE_Ratio"},
+    {"subject": "FPT", "predicate": "TRACKED_BY_METRIC", "object": "Market_Cap"},
+    {"subject": "VNM", "predicate": "TRACKED_BY_METRIC", "object": "ROE_LTM"},
+    {"subject": "VNM", "predicate": "TRACKED_BY_METRIC", "object": "DE_Ratio"},
+    {"subject": "HPG", "predicate": "TRACKED_BY_METRIC", "object": "ROE_LTM"},
+    {"subject": "HPG", "predicate": "TRACKED_BY_METRIC", "object": "Market_Cap"},
+    {"subject": "FPT", "predicate": "CONSTITUENT_OF", "object": "VN30_Index"},
+    {"subject": "VNM", "predicate": "CONSTITUENT_OF", "object": "VN30_Index"},
+    {"subject": "HPG", "predicate": "CONSTITUENT_OF", "object": "VN30_Index"},
+    {"subject": "HOSE_Exchange", "predicate": "REGULATED_BY", "object": "State_Securities_Commission"}
+  ]
+}

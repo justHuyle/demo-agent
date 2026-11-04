@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ada_2026_chunk_01",
+    "title": "Tiêu chuẩn Chẩn đoán ADA 2026 - Chỉ số HbA1c (Glycated Hemoglobin)",
+    "text": "Theo Tiêu chuẩn Chăm sóc Y tế ADA 2026 của Hiệp hội Đái tháo đường Hoa Kỳ, Bệnh Đái tháo đường Type 2 (tiểu đường) được chẩn đoán xác định khi chỉ số xét nghiệm HbA1c Level (Glycated Hemoglobin) đạt từ 6.5% (48 mmol/mol) trở lên. Xét nghiệm chỉ số HbA1c Level có ý nghĩa và vai trò then chốt trong chẩn đoán, đánh giá kiểm soát đường huyết trung bình trong 2-3 tháng và theo dõi biến chứng bệnh tiểu đường. Trong trường hợp không có triệu chứng tăng đường huyết lâm sàng cấp tính rõ rệt, chẩn đoán yêu cầu hai kết quả xét nghiệm bất thường lặp lại.",
+    "content": "Theo Tiêu chuẩn Chăm sóc Y tế ADA 2026 của Hiệp hội Đái tháo đường Hoa Kỳ, Bệnh Đái tháo đường Type 2 (tiểu đường) được chẩn đoán xác định khi chỉ số xét nghiệm HbA1c Level (Glycated Hemoglobin) đạt từ 6.5% (48 mmol/mol) trở lên. Xét nghiệm chỉ số HbA1c Level có ý nghĩa và vai trò then chốt trong chẩn đoán, đánh giá kiểm soát đường huyết trung bình trong 2-3 tháng và theo dõi biến chứng bệnh tiểu đường. Trong trường hợp không có triệu chứng tăng đường huyết lâm sàng cấp tính rõ rệt, chẩn đoán yêu cầu hai kết quả xét nghiệm bất thường lặp lại.",
+    "source": "Tiêu chuẩn Chăm sóc Bệnh Đái tháo đường ADA 2026, Phần 2: Chẩn đoán",
+    "domain": "diabetes",
+    "category": "diagnostic_thresholds"
+  },
+  {
+    "id": "ada_2026_chunk_02",
+    "title": "Tiêu chuẩn Chẩn đoán ADA 2026 - Đường huyết Tương lúc Đói (FPG)",
+    "text": "Ngưỡng chẩn đoán bệnh đái tháo đường theo hướng dẫn ADA 2026 đối với đường huyết tương lúc đói (FPG / Fasting Plasma Glucose / blood glucose) được xác định từ 126 mg/dL (7.0 mmol/L) trở lên. Trạng thái nhịn đói được định nghĩa là không nạp calo trong ít nhất 8 giờ liên tục trước khi lấy máu. Mức đường huyết lúc đói từ 100 mg/dL đến 125 mg/dL là giai đoạn tiền đái tháo đường (rối loạn đường huyết đói), cần can thiệp sàng lọc và điều chỉnh lối sống.",
+    "content": "Ngưỡng chẩn đoán bệnh đái tháo đường theo hướng dẫn ADA 2026 đối với đường huyết tương lúc đói (FPG / Fasting Plasma Glucose / blood glucose) được xác định từ 126 mg/dL (7.0 mmol/L) trở lên. Trạng thái nhịn đói được định nghĩa là không nạp calo trong ít nhất 8 giờ liên tục trước khi lấy máu. Mức đường huyết lúc đói từ 100 mg/dL đến 125 mg/dL là giai đoạn tiền đái tháo đường (rối loạn đường huyết đói), cần can thiệp sàng lọc và điều chỉnh lối sống.",
+    "source": "Tiêu chuẩn Chăm sóc Bệnh Đái tháo đường ADA 2026, Phần 2: Chẩn đoán",
+    "domain": "diabetes",
+    "category": "diagnostic_thresholds"
+  },
+  {
+    "id": "ada_2026_chunk_03",
+    "title": "Tiêu chuẩn Chẩn đoán ADA 2026 - Nghiệm pháp Dung nạp Glucose Đường uống (OGTT)",
+    "text": "Mức đường huyết sau 2 giờ đạt từ 200 mg/dL (11.1 mmol/L) trở lên trong nghiệm pháp dung nạp glucose đường uống (OGTT 75g) là tiêu chuẩn xác định đái tháo đường. Đối với bệnh nhân có triệu chứng kinh điển của tăng đường huyết (khát nhiều, tiểu nhiều, sụt cân), mức đường huyết ngẫu nhiên từ 200 mg/dL trở lên là đủ điều kiện chẩn đoán ngay mà không cần lặp lại xét nghiệm.",
+    "content": "Mức đường huyết sau 2 giờ đạt từ 200 mg/dL (11.1 mmol/L) trở lên trong nghiệm pháp dung nạp glucose đường uống (OGTT 75g) là tiêu chuẩn xác định đái tháo đường. Đối với bệnh nhân có triệu chứng kinh điển của tăng đường huyết (khát nhiều, tiểu nhiều, sụt cân), mức đường huyết ngẫu nhiên từ 200 mg/dL trở lên là đủ điều kiện chẩn đoán ngay mà không cần lặp lại xét nghiệm.",
+    "source": "Tiêu chuẩn Chăm sóc Bệnh Đái tháo đường ADA 2026, Phần 2: Chẩn đoán",
+    "domain": "diabetes",
+    "category": "diagnostic_thresholds"
+  },
+  {
+    "id": "ada_2026_chunk_04",
+    "title": "Quản lý Lối sống & Dinh dưỡng ADA 2026 - Vận động và Kiểm soát Cân nặng (DSMES)",
+    "text": "Can thiệp thay đổi lối sống toàn diện là nền tảng điều trị đái tháo đường Type 2. Bệnh nhân cần tham gia chương trình giáo dục tự quản lý đái tháo đường (DSMES) và liệu pháp dinh dưỡng y khoa (MNT). Khuyến nghị ít nhất 150 phút hoạt động thể chất aerobic vừa đến mạnh mỗi tuần, chia tối thiểu 3 ngày, kết hợp 2-3 buổi tập kháng lực và đặt mục tiêu giảm 5% đến 10% trọng lượng cơ thể đối với bệnh nhân thừa cân, béo phì có chỉ số BMI cao.",
+    "content": "Can thiệp thay đổi lối sống toàn diện là nền tảng điều trị đái tháo đường Type 2. Bệnh nhân cần tham gia chương trình giáo dục tự quản lý đái tháo đường (DSMES) và liệu pháp dinh dưỡng y khoa (MNT). Khuyến nghị ít nhất 150 phút hoạt động thể chất aerobic vừa đến mạnh mỗi tuần, chia tối thiểu 3 ngày, kết hợp 2-3 buổi tập kháng lực và đặt mục tiêu giảm 5% đến 10% trọng lượng cơ thể đối với bệnh nhân thừa cân, béo phì có chỉ số BMI cao.",
+    "source": "Tiêu chuẩn Chăm sóc Bệnh Đái tháo đường ADA 2026, Phần 5: Lối sống",
+    "domain": "diabetes",
+    "category": "lifestyle_management"
+  },
+  {
+    "id": "ada_2026_chunk_05",
+    "title": "Phác đồ Dược lý ADA 2026 - Thuốc Metformin và Nhóm Bảo vệ Cơ quan đích",
+    "text": "Thuốc Metformin là lựa chọn dược lý đầu tay (first-line) cho bệnh nhân đái tháo đường Type 2 khi chức năng lọc cầu thận eGFR >= 30 mL/phút/1.73m2. Với bệnh nhân có nguy cơ hoặc tiền sử bệnh tim mạch xơ vữa, suy tim hoặc bệnh thận mạn tính, khuyến nghị phối hợp sớm với thuốc ức chế SGLT2 hoặc GLP-1 RA đã được chứng minh bảo vệ tim mạch và thận.",
+    "content": "Thuốc Metformin là lựa chọn dược lý đầu tay (first-line) cho bệnh nhân đái tháo đường Type 2 khi chức năng lọc cầu thận eGFR >= 30 mL/phút/1.73m2. Với bệnh nhân có nguy cơ hoặc tiền sử bệnh tim mạch xơ vữa, suy tim hoặc bệnh thận mạn tính, khuyến nghị phối hợp sớm với thuốc ức chế SGLT2 hoặc GLP-1 RA đã được chứng minh bảo vệ tim mạch và thận.",
+    "source": "Tiêu chuẩn Chăm sóc Bệnh Đái tháo đường ADA 2026, Phần 9: Dược lý",
+    "domain": "diabetes",
+    "category": "pharmacological_management"
+  },
+  {
+    "id": "ada_2026_chunk_06",
+    "title": "Chốt chặn An toàn Y tế ADA 2026 - Từ chối Kê đơn và Chỉ định Liều dùng Tự động",
+    "text": "Chốt chặn An toàn Lâm sàng: Hệ thống tác tử AI thông minh tuyệt đối không được tự động kê đơn thuốc, cung cấp đơn thuốc, hoặc chỉ định liều dùng thuốc điều trị cho người dùng khi chưa có chỉ định khám trực tiếp từ bác sĩ. Khi phát hiện câu hỏi về kê đơn thuốc, liều dùng metformin hay hướng dẫn uống thuốc, hệ thống bắt buộc kích hoạt từ chối an toàn để bảo vệ tính mạng người bệnh.",
+    "content": "Chốt chặn An toàn Lâm sàng: Hệ thống tác tử AI thông minh tuyệt đối không được tự động kê đơn thuốc, cung cấp đơn thuốc, hoặc chỉ định liều dùng thuốc điều trị cho người dùng khi chưa có chỉ định khám trực tiếp từ bác sĩ. Khi phát hiện câu hỏi về kê đơn thuốc, liều dùng metformin hay hướng dẫn uống thuốc, hệ thống bắt buộc kích hoạt từ chối an toàn để bảo vệ tính mạng người bệnh.",
+    "source": "Quy tắc An toàn và Quản trị Lâm sàng AI ADA 2026",
+    "domain": "diabetes",
+    "category": "safety_refusal"
+  }
+]

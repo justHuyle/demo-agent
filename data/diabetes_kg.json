@@ -1,0 +1,141 @@
+{
+  "domain": "diabetes",
+  "seed": 42,
+  "description": "Mock Diabetes Knowledge Graph representing diagnostic criteria, risk factors, medications, and complications according to ADA standards.",
+  "nodes": [
+    {
+      "id": "HbA1c_Level",
+      "label": "HbA1c Level",
+      "type": "Biomarker",
+      "properties": {"diagnostic_threshold": ">=6.5%"}
+    },
+    {
+      "id": "Blood_Glucose_Level",
+      "label": "Blood Glucose Level",
+      "type": "Biomarker",
+      "properties": {"unit": "mg/dL"}
+    },
+    {
+      "id": "Fasting_Plasma_Glucose",
+      "label": "Fasting Plasma Glucose",
+      "type": "Biomarker",
+      "properties": {"diagnostic_threshold": ">=126 mg/dL"}
+    },
+    {
+      "id": "Type_2_Diabetes",
+      "label": "Type 2 Diabetes Mellitus",
+      "type": "Condition",
+      "properties": {"icd10": "E11"}
+    },
+    {
+      "id": "Metformin",
+      "label": "Metformin",
+      "type": "Medication",
+      "properties": {"class": "Biguanide", "first_line": true}
+    },
+    {
+      "id": "SGLT2_Inhibitor",
+      "label": "SGLT2 Inhibitor",
+      "type": "Medication",
+      "properties": {"class": "Sodium-Glucose Transport Protein 2 Inhibitor"}
+    },
+    {
+      "id": "Hypertension",
+      "label": "Hypertension",
+      "type": "Condition",
+      "properties": {"category": "Cardiovascular Comorbidity"}
+    },
+    {
+      "id": "Retinopathy",
+      "label": "Diabetic Retinopathy",
+      "type": "Complication",
+      "properties": {"affected_organ": "Eyes"}
+    },
+    {
+      "id": "Nephropathy",
+      "label": "Diabetic Nephropathy",
+      "type": "Complication",
+      "properties": {"affected_organ": "Kidneys"}
+    },
+    {
+      "id": "Neuropathy",
+      "label": "Diabetic Neuropathy",
+      "type": "Complication",
+      "properties": {"affected_organ": "Nervous System"}
+    },
+    {
+      "id": "Cardiovascular_Disease",
+      "label": "Cardiovascular Disease",
+      "type": "Complication",
+      "properties": {"acronym": "CVD"}
+    },
+    {
+      "id": "Obesity",
+      "label": "Obesity",
+      "type": "RiskFactor",
+      "properties": {"bmi_threshold": ">=30 kg/m2"}
+    },
+    {
+      "id": "Physical_Inactivity",
+      "label": "Physical Inactivity",
+      "type": "RiskFactor",
+      "properties": {"lifestyle": "Sedentary"}
+    },
+    {
+      "id": "Insulin_Resistance",
+      "label": "Insulin Resistance",
+      "type": "Pathology",
+      "properties": {"mechanism": "Reduced cell sensitivity to insulin"}
+    },
+    {
+      "id": "Lifestyle_Modification",
+      "label": "Lifestyle Modification",
+      "type": "Intervention",
+      "properties": {"components": ["Aerobic Exercise", "MNT Diet"]}
+    }
+  ],
+  "edges": [
+    {"source": "HbA1c_Level", "target": "Type_2_Diabetes", "relation": "DIAGNOSES", "weight": 1.0},
+    {"source": "Blood_Glucose_Level", "target": "Type_2_Diabetes", "relation": "DIAGNOSES", "weight": 1.0},
+    {"source": "Fasting_Plasma_Glucose", "target": "Type_2_Diabetes", "relation": "DIAGNOSES", "weight": 1.0},
+    {"source": "Obesity", "target": "Type_2_Diabetes", "relation": "RISK_FACTOR_FOR", "weight": 0.8},
+    {"source": "Obesity", "target": "Hypertension", "relation": "RISK_FACTOR_FOR", "weight": 0.75},
+    {"source": "Physical_Inactivity", "target": "Type_2_Diabetes", "relation": "RISK_FACTOR_FOR", "weight": 0.7},
+    {"source": "Physical_Inactivity", "target": "Obesity", "relation": "RISK_FACTOR_FOR", "weight": 0.85},
+    {"source": "Insulin_Resistance", "target": "Type_2_Diabetes", "relation": "RISK_FACTOR_FOR", "weight": 0.9},
+    {"source": "Hypertension", "target": "Cardiovascular_Disease", "relation": "RISK_FACTOR_FOR", "weight": 0.85},
+    {"source": "Type_2_Diabetes", "target": "Cardiovascular_Disease", "relation": "RISK_FACTOR_FOR", "weight": 0.8},
+    {"source": "Retinopathy", "target": "Type_2_Diabetes", "relation": "COMPLICATION_OF", "weight": 0.95},
+    {"source": "Nephropathy", "target": "Type_2_Diabetes", "relation": "COMPLICATION_OF", "weight": 0.9},
+    {"source": "Neuropathy", "target": "Type_2_Diabetes", "relation": "COMPLICATION_OF", "weight": 0.85},
+    {"source": "Cardiovascular_Disease", "target": "Type_2_Diabetes", "relation": "COMPLICATION_OF", "weight": 0.8},
+    {"source": "Metformin", "target": "Type_2_Diabetes", "relation": "TREATS", "weight": 0.95},
+    {"source": "Metformin", "target": "Blood_Glucose_Level", "relation": "REDUCES", "weight": 0.9},
+    {"source": "Lifestyle_Modification", "target": "Type_2_Diabetes", "relation": "PREVENTS", "weight": 0.85},
+    {"source": "Lifestyle_Modification", "target": "Insulin_Resistance", "relation": "REDUCES", "weight": 0.8},
+    {"source": "SGLT2_Inhibitor", "target": "Type_2_Diabetes", "relation": "TREATS", "weight": 0.9},
+    {"source": "SGLT2_Inhibitor", "target": "Cardiovascular_Disease", "relation": "REDUCES_RISK_OF", "weight": 0.85}
+  ],
+  "triples": [
+    {"subject": "HbA1c_Level", "predicate": "DIAGNOSES", "object": "Type_2_Diabetes"},
+    {"subject": "Blood_Glucose_Level", "predicate": "DIAGNOSES", "object": "Type_2_Diabetes"},
+    {"subject": "Fasting_Plasma_Glucose", "predicate": "DIAGNOSES", "object": "Type_2_Diabetes"},
+    {"subject": "Obesity", "predicate": "RISK_FACTOR_FOR", "object": "Type_2_Diabetes"},
+    {"subject": "Obesity", "predicate": "RISK_FACTOR_FOR", "object": "Hypertension"},
+    {"subject": "Physical_Inactivity", "predicate": "RISK_FACTOR_FOR", "object": "Type_2_Diabetes"},
+    {"subject": "Physical_Inactivity", "predicate": "RISK_FACTOR_FOR", "object": "Obesity"},
+    {"subject": "Insulin_Resistance", "predicate": "RISK_FACTOR_FOR", "object": "Type_2_Diabetes"},
+    {"subject": "Hypertension", "predicate": "RISK_FACTOR_FOR", "object": "Cardiovascular_Disease"},
+    {"subject": "Type_2_Diabetes", "predicate": "RISK_FACTOR_FOR", "object": "Cardiovascular_Disease"},
+    {"subject": "Retinopathy", "predicate": "COMPLICATION_OF", "object": "Type_2_Diabetes"},
+    {"subject": "Nephropathy", "predicate": "COMPLICATION_OF", "object": "Type_2_Diabetes"},
+    {"subject": "Neuropathy", "predicate": "COMPLICATION_OF", "object": "Type_2_Diabetes"},
+    {"subject": "Cardiovascular_Disease", "predicate": "COMPLICATION_OF", "object": "Type_2_Diabetes"},
+    {"subject": "Metformin", "predicate": "TREATS", "object": "Type_2_Diabetes"},
+    {"subject": "Metformin", "predicate": "REDUCES", "object": "Blood_Glucose_Level"},
+    {"subject": "Lifestyle_Modification", "predicate": "PREVENTS", "object": "Type_2_Diabetes"},
+    {"subject": "Lifestyle_Modification", "predicate": "REDUCES", "object": "Insulin_Resistance"},
+    {"subject": "SGLT2_Inhibitor", "predicate": "TREATS", "object": "Type_2_Diabetes"},
+    {"subject": "SGLT2_Inhibitor", "predicate": "REDUCES_RISK_OF", "object": "Cardiovascular_Disease"}
+  ]
+}

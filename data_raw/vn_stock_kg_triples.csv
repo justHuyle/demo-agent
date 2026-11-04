@@ -1,0 +1,165 @@
+﻿subject,relation,object,detail,source
+Market_Cap,INDICATES_CHARACTERISTIC,Mega_Cap_Over_100k_Billion,Vốn hóa >= 100.000 tỷ VNĐ,Q4_2024_Financial_Statement
+Market_Cap,INDICATES_CHARACTERISTIC,Large_Mid_Cap_Under_100k_Billion,Vốn hóa < 100.000 tỷ VNĐ,Q4_2024_Financial_Statement
+ROE_LTM,INDICATES_CHARACTERISTIC,High_ROE_Over_18%,ROE 4 quý gần nhất >= 18%,Q4_2024_Financial_Statement
+ROE_LTM,INDICATES_CHARACTERISTIC,Moderate_ROE_Below_18%,ROE 4 quý gần nhất < 18%,Q4_2024_Financial_Statement
+Debt_to_Equity_Ratio,INDICATES_CHARACTERISTIC,Low_Leverage_DE_Below_0.6,Nợ phải trả / Vốn CSH < 0.6 lần,Q4_2024_Financial_Statement
+Debt_to_Equity_Ratio,INDICATES_CHARACTERISTIC,Moderate_Leverage_DE_0.6_to_1.5,Nợ / Vốn CSH từ 0.6 đến 1.5 lần,Q4_2024_Financial_Statement
+Debt_to_Equity_Ratio,INDICATES_CHARACTERISTIC,High_Leverage_DE_Over_1.5,Nợ / Vốn CSH > 1.5 lần,Q4_2024_Financial_Statement
+PE_Ratio,INDICATES_CHARACTERISTIC,Value_PE_Below_16x,Hệ số định giá P/E < 16 lần,Q4_2024_Financial_Statement
+PE_Ratio,INDICATES_CHARACTERISTIC,Growth_PE_16_to_30x,Hệ số định giá P/E từ 16 đến 30 lần,Q4_2024_Financial_Statement
+PE_Ratio,INDICATES_CHARACTERISTIC,High_PE_Over_30x,Hệ số định giá P/E > 30 lần,Q4_2024_Financial_Statement
+OHLCV_Time_Series,INDICATES_CHARACTERISTIC,High_Liquidity_Over_3M_Shares,KLGD trung bình > 3 triệu CP/phiên,Daily_Price_1000_Sessions_2021_2025
+FPT,ISSUED_BY,FPT_Corporation,Mã FPT phát hành bởi FPT_Corporation,HOSE_Official_Disclosure
+FPT,LISTED_ON,HOSE_Exchange,Niêm yết trên Sở GDCK TP.HCM,HOSE_Official_Disclosure
+FPT,BELONGS_TO_SECTOR,Information_Technology_Sector,Thuộc ngành Information_Technology_Sector,HOSE_Official_Disclosure
+FPT_Corporation,BELONGS_TO_SECTOR,Information_Technology_Sector,Doanh nghiệp thuộc ngành Information_Technology_Sector,HOSE_Official_Disclosure
+FPT,INCLUDED_IN_INDEX,VN_Index,Thuộc rổ chỉ số chung VN-Index,HOSE_Official_Disclosure
+FPT,INCLUDED_IN_INDEX,VN30_Index,Phân nhóm rổ chỉ số VN30_Index,HOSE_Official_Disclosure
+FPT,SOURCED_FROM,Historical_Financial_40Q_2015_2024,Dữ liệu báo cáo tài chính (1000 phiên / 40 quý),Historical_Financial_40Q_2015_2024
+FPT,SOURCED_FROM,Daily_Price_1000_Sessions_2021_2025,Chuỗi 1000 phiên giá OHLCV,Daily_Price_1000_Sessions_2021_2025
+FPT,TRACKED_BY_METRIC,Net_Revenue,Doanh thu Q4/2024: 17.61 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+FPT,TRACKED_BY_METRIC,Net_Profit_Parent,LNST Q4/2024: 2087.0 tỷ VNĐ,Q4_2024_Financial_Statement
+FPT,TRACKED_BY_METRIC,PE_Ratio,P/E Q4/2024: 26.89 lần,Q4_2024_Financial_Statement
+FPT,TRACKED_BY_METRIC,PB_Ratio,P/B Q4/2024: 6.78 lần,Q4_2024_Financial_Statement
+FPT,TRACKED_BY_METRIC,ROE_LTM,ROE LTM Q4/2024: 28.66%,Q4_2024_Financial_Statement
+FPT,TRACKED_BY_METRIC,Debt_to_Equity_Ratio,D/E Q4/2024: 1.01 lần,Q4_2024_Financial_Statement
+FPT,TRACKED_BY_METRIC,Market_Cap,Vốn hóa Q4/2024: 206.39 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+FPT,TRACKED_BY_METRIC,OHLCV_Time_Series,"Giá đóng cửa cuối: 131,400 VNĐ",Daily_Price_1000_Sessions_2021_2025
+FPT,HAS_FUNDAMENTAL_PROFILE,Mega_Cap_Over_100k_Billion,Vốn hóa = 206.39 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+FPT,HAS_FUNDAMENTAL_PROFILE,High_ROE_Over_18%,ROE LTM = 28.66%,Q4_2024_Financial_Statement
+FPT,HAS_FUNDAMENTAL_PROFILE,Moderate_Leverage_DE_0.6_to_1.5,D/E = 1.01 lần,Q4_2024_Financial_Statement
+FPT,HAS_FUNDAMENTAL_PROFILE,Growth_PE_16_to_30x,P/E = 26.89 lần,Q4_2024_Financial_Statement
+FPT,HAS_FUNDAMENTAL_PROFILE,High_Liquidity_Over_3M_Shares,KLGD TB = 3.06 triệu CP/phiên,Daily_Price_1000_Sessions_2021_2025
+GAS,ISSUED_BY,PV_GAS_Corporation,Mã GAS phát hành bởi PV_GAS_Corporation,HOSE_Official_Disclosure
+GAS,LISTED_ON,HOSE_Exchange,Niêm yết trên Sở GDCK TP.HCM,HOSE_Official_Disclosure
+GAS,BELONGS_TO_SECTOR,Gas_And_Utilities_Sector,Thuộc ngành Gas_And_Utilities_Sector,HOSE_Official_Disclosure
+PV_GAS_Corporation,BELONGS_TO_SECTOR,Gas_And_Utilities_Sector,Doanh nghiệp thuộc ngành Gas_And_Utilities_Sector,HOSE_Official_Disclosure
+GAS,INCLUDED_IN_INDEX,VN_Index,Thuộc rổ chỉ số chung VN-Index,HOSE_Official_Disclosure
+GAS,INCLUDED_IN_INDEX,VN30_Index,Phân nhóm rổ chỉ số VN30_Index,HOSE_Official_Disclosure
+GAS,SOURCED_FROM,Historical_Financial_40Q_2015_2024,Dữ liệu báo cáo tài chính (1000 phiên / 40 quý),Historical_Financial_40Q_2015_2024
+GAS,SOURCED_FROM,Daily_Price_1000_Sessions_2021_2025,Chuỗi 1000 phiên giá OHLCV,Daily_Price_1000_Sessions_2021_2025
+GAS,TRACKED_BY_METRIC,Net_Revenue,Doanh thu Q4/2024: 24.95 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+GAS,TRACKED_BY_METRIC,Net_Profit_Parent,LNST Q4/2024: 2044.1 tỷ VNĐ,Q4_2024_Financial_Statement
+GAS,TRACKED_BY_METRIC,PE_Ratio,P/E Q4/2024: 14.72 lần,Q4_2024_Financial_Statement
+GAS,TRACKED_BY_METRIC,PB_Ratio,P/B Q4/2024: 2.8 lần,Q4_2024_Financial_Statement
+GAS,TRACKED_BY_METRIC,ROE_LTM,ROE LTM Q4/2024: 16.69%,Q4_2024_Financial_Statement
+GAS,TRACKED_BY_METRIC,Debt_to_Equity_Ratio,D/E Q4/2024: 0.33 lần,Q4_2024_Financial_Statement
+GAS,TRACKED_BY_METRIC,Market_Cap,Vốn hóa Q4/2024: 160.71 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+GAS,TRACKED_BY_METRIC,OHLCV_Time_Series,"Giá đóng cửa cuối: 67,700 VNĐ",Daily_Price_1000_Sessions_2021_2025
+GAS,HAS_FUNDAMENTAL_PROFILE,Mega_Cap_Over_100k_Billion,Vốn hóa = 160.71 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+GAS,HAS_FUNDAMENTAL_PROFILE,Moderate_ROE_Below_18%,ROE LTM = 16.69%,Q4_2024_Financial_Statement
+GAS,HAS_FUNDAMENTAL_PROFILE,Low_Leverage_DE_Below_0.6,D/E = 0.33 lần,Q4_2024_Financial_Statement
+GAS,HAS_FUNDAMENTAL_PROFILE,Value_PE_Below_16x,P/E = 14.72 lần,Q4_2024_Financial_Statement
+HPG,ISSUED_BY,Hoa_Phat_Group,Mã HPG phát hành bởi Hoa_Phat_Group,HOSE_Official_Disclosure
+HPG,LISTED_ON,HOSE_Exchange,Niêm yết trên Sở GDCK TP.HCM,HOSE_Official_Disclosure
+HPG,BELONGS_TO_SECTOR,Steel_And_Materials_Sector,Thuộc ngành Steel_And_Materials_Sector,HOSE_Official_Disclosure
+Hoa_Phat_Group,BELONGS_TO_SECTOR,Steel_And_Materials_Sector,Doanh nghiệp thuộc ngành Steel_And_Materials_Sector,HOSE_Official_Disclosure
+HPG,INCLUDED_IN_INDEX,VN_Index,Thuộc rổ chỉ số chung VN-Index,HOSE_Official_Disclosure
+HPG,INCLUDED_IN_INDEX,VN30_Index,Phân nhóm rổ chỉ số VN30_Index,HOSE_Official_Disclosure
+HPG,SOURCED_FROM,Historical_Financial_40Q_2015_2024,Dữ liệu báo cáo tài chính (1000 phiên / 40 quý),Historical_Financial_40Q_2015_2024
+HPG,SOURCED_FROM,Daily_Price_1000_Sessions_2021_2025,Chuỗi 1000 phiên giá OHLCV,Daily_Price_1000_Sessions_2021_2025
+HPG,TRACKED_BY_METRIC,Net_Revenue,Doanh thu Q4/2024: 34.49 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+HPG,TRACKED_BY_METRIC,Net_Profit_Parent,LNST Q4/2024: 2806.8 tỷ VNĐ,Q4_2024_Financial_Statement
+HPG,TRACKED_BY_METRIC,PE_Ratio,P/E Q4/2024: 14.09 lần,Q4_2024_Financial_Statement
+HPG,TRACKED_BY_METRIC,PB_Ratio,P/B Q4/2024: 1.54 lần,Q4_2024_Financial_Statement
+HPG,TRACKED_BY_METRIC,ROE_LTM,ROE LTM Q4/2024: 11.05%,Q4_2024_Financial_Statement
+HPG,TRACKED_BY_METRIC,Debt_to_Equity_Ratio,D/E Q4/2024: 0.96 lần,Q4_2024_Financial_Statement
+HPG,TRACKED_BY_METRIC,Market_Cap,Vốn hóa Q4/2024: 165.66 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+HPG,TRACKED_BY_METRIC,OHLCV_Time_Series,"Giá đóng cửa cuối: 27,550 VNĐ",Daily_Price_1000_Sessions_2021_2025
+HPG,HAS_FUNDAMENTAL_PROFILE,Mega_Cap_Over_100k_Billion,Vốn hóa = 165.66 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+HPG,HAS_FUNDAMENTAL_PROFILE,Moderate_ROE_Below_18%,ROE LTM = 11.05%,Q4_2024_Financial_Statement
+HPG,HAS_FUNDAMENTAL_PROFILE,Moderate_Leverage_DE_0.6_to_1.5,D/E = 0.96 lần,Q4_2024_Financial_Statement
+HPG,HAS_FUNDAMENTAL_PROFILE,Value_PE_Below_16x,P/E = 14.09 lần,Q4_2024_Financial_Statement
+HPG,HAS_FUNDAMENTAL_PROFILE,High_Liquidity_Over_3M_Shares,KLGD TB = 24.7 triệu CP/phiên,Daily_Price_1000_Sessions_2021_2025
+IMP,ISSUED_BY,Imexpharm_Corp,Mã IMP phát hành bởi Imexpharm_Corp,HOSE_Official_Disclosure
+IMP,LISTED_ON,HOSE_Exchange,Niêm yết trên Sở GDCK TP.HCM,HOSE_Official_Disclosure
+IMP,BELONGS_TO_SECTOR,Pharmaceuticals_Healthcare_Sector,Thuộc ngành Pharmaceuticals_Healthcare_Sector,HOSE_Official_Disclosure
+Imexpharm_Corp,BELONGS_TO_SECTOR,Pharmaceuticals_Healthcare_Sector,Doanh nghiệp thuộc ngành Pharmaceuticals_Healthcare_Sector,HOSE_Official_Disclosure
+IMP,INCLUDED_IN_INDEX,VN_Index,Thuộc rổ chỉ số chung VN-Index,HOSE_Official_Disclosure
+IMP,INCLUDED_IN_INDEX,MidCap_NonVN30_Group,Phân nhóm rổ chỉ số MidCap_NonVN30_Group,HOSE_Official_Disclosure
+IMP,SOURCED_FROM,Historical_Financial_20Q_2020_2024,Dữ liệu báo cáo tài chính (1000 phiên / 20 quý),Historical_Financial_20Q_2020_2024
+IMP,SOURCED_FROM,Daily_Price_1000_Sessions_2021_2025,Chuỗi 1000 phiên giá OHLCV,Daily_Price_1000_Sessions_2021_2025
+IMP,TRACKED_BY_METRIC,Net_Revenue,Doanh thu Q4/2024: 0.65 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+IMP,TRACKED_BY_METRIC,Net_Profit_Parent,LNST Q4/2024: 120.6 tỷ VNĐ,Q4_2024_Financial_Statement
+IMP,TRACKED_BY_METRIC,PE_Ratio,P/E Q4/2024: 26.21 lần,Q4_2024_Financial_Statement
+IMP,TRACKED_BY_METRIC,PB_Ratio,P/B Q4/2024: 3.32 lần,Q4_2024_Financial_Statement
+IMP,TRACKED_BY_METRIC,ROE_LTM,ROE LTM Q4/2024: 15.04%,Q4_2024_Financial_Statement
+IMP,TRACKED_BY_METRIC,Debt_to_Equity_Ratio,D/E Q4/2024: 0.15 lần,Q4_2024_Financial_Statement
+IMP,TRACKED_BY_METRIC,Market_Cap,Vốn hóa Q4/2024: 7.38 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+IMP,TRACKED_BY_METRIC,OHLCV_Time_Series,"Giá đóng cửa cuối: 46,600 VNĐ",Daily_Price_1000_Sessions_2021_2025
+IMP,HAS_FUNDAMENTAL_PROFILE,Large_Mid_Cap_Under_100k_Billion,Vốn hóa = 7.38 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+IMP,HAS_FUNDAMENTAL_PROFILE,Moderate_ROE_Below_18%,ROE LTM = 15.04%,Q4_2024_Financial_Statement
+IMP,HAS_FUNDAMENTAL_PROFILE,Low_Leverage_DE_Below_0.6,D/E = 0.15 lần,Q4_2024_Financial_Statement
+IMP,HAS_FUNDAMENTAL_PROFILE,Growth_PE_16_to_30x,P/E = 26.21 lần,Q4_2024_Financial_Statement
+MSN,ISSUED_BY,Masan_Group,Mã MSN phát hành bởi Masan_Group,HOSE_Official_Disclosure
+MSN,LISTED_ON,HOSE_Exchange,Niêm yết trên Sở GDCK TP.HCM,HOSE_Official_Disclosure
+MSN,BELONGS_TO_SECTOR,Consumer_Conglomerate_Sector,Thuộc ngành Consumer_Conglomerate_Sector,HOSE_Official_Disclosure
+Masan_Group,BELONGS_TO_SECTOR,Consumer_Conglomerate_Sector,Doanh nghiệp thuộc ngành Consumer_Conglomerate_Sector,HOSE_Official_Disclosure
+MSN,INCLUDED_IN_INDEX,VN_Index,Thuộc rổ chỉ số chung VN-Index,HOSE_Official_Disclosure
+MSN,INCLUDED_IN_INDEX,VN30_Index,Phân nhóm rổ chỉ số VN30_Index,HOSE_Official_Disclosure
+MSN,SOURCED_FROM,Historical_Financial_40Q_2015_2024,Dữ liệu báo cáo tài chính (1000 phiên / 40 quý),Historical_Financial_40Q_2015_2024
+MSN,SOURCED_FROM,Daily_Price_1000_Sessions_2021_2025,Chuỗi 1000 phiên giá OHLCV,Daily_Price_1000_Sessions_2021_2025
+MSN,TRACKED_BY_METRIC,Net_Revenue,Doanh thu Q4/2024: 22.7 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+MSN,TRACKED_BY_METRIC,Net_Profit_Parent,LNST Q4/2024: 691.1 tỷ VNĐ,Q4_2024_Financial_Statement
+MSN,TRACKED_BY_METRIC,PE_Ratio,P/E Q4/2024: 81.49 lần,Q4_2024_Financial_Statement
+MSN,TRACKED_BY_METRIC,PB_Ratio,P/B Q4/2024: 3.75 lần,Q4_2024_Financial_Statement
+MSN,TRACKED_BY_METRIC,ROE_LTM,ROE LTM Q4/2024: 10.82%,Q4_2024_Financial_Statement
+MSN,TRACKED_BY_METRIC,Debt_to_Equity_Ratio,D/E Q4/2024: 2.62 lần,Q4_2024_Financial_Statement
+MSN,TRACKED_BY_METRIC,Market_Cap,Vốn hóa Q4/2024: 97.81 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+MSN,TRACKED_BY_METRIC,OHLCV_Time_Series,"Giá đóng cửa cuối: 71,100 VNĐ",Daily_Price_1000_Sessions_2021_2025
+MSN,HAS_FUNDAMENTAL_PROFILE,Large_Mid_Cap_Under_100k_Billion,Vốn hóa = 97.81 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+MSN,HAS_FUNDAMENTAL_PROFILE,Moderate_ROE_Below_18%,ROE LTM = 10.82%,Q4_2024_Financial_Statement
+MSN,HAS_FUNDAMENTAL_PROFILE,High_Leverage_DE_Over_1.5,D/E = 2.62 lần,Q4_2024_Financial_Statement
+MSN,HAS_FUNDAMENTAL_PROFILE,High_PE_Over_30x,P/E = 81.49 lần,Q4_2024_Financial_Statement
+MWG,ISSUED_BY,Mobile_World_Investment,Mã MWG phát hành bởi Mobile_World_Investment,HOSE_Official_Disclosure
+MWG,LISTED_ON,HOSE_Exchange,Niêm yết trên Sở GDCK TP.HCM,HOSE_Official_Disclosure
+MWG,BELONGS_TO_SECTOR,Specialized_Retail_Sector,Thuộc ngành Specialized_Retail_Sector,HOSE_Official_Disclosure
+Mobile_World_Investment,BELONGS_TO_SECTOR,Specialized_Retail_Sector,Doanh nghiệp thuộc ngành Specialized_Retail_Sector,HOSE_Official_Disclosure
+MWG,INCLUDED_IN_INDEX,VN_Index,Thuộc rổ chỉ số chung VN-Index,HOSE_Official_Disclosure
+MWG,INCLUDED_IN_INDEX,VN30_Index,Phân nhóm rổ chỉ số VN30_Index,HOSE_Official_Disclosure
+MWG,SOURCED_FROM,Historical_Financial_40Q_2015_2024,Dữ liệu báo cáo tài chính (1000 phiên / 40 quý),Historical_Financial_40Q_2015_2024
+MWG,SOURCED_FROM,Daily_Price_1000_Sessions_2021_2025,Chuỗi 1000 phiên giá OHLCV,Daily_Price_1000_Sessions_2021_2025
+MWG,TRACKED_BY_METRIC,Net_Revenue,Doanh thu Q4/2024: 34.57 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+MWG,TRACKED_BY_METRIC,Net_Profit_Parent,LNST Q4/2024: 847.0 tỷ VNĐ,Q4_2024_Financial_Statement
+MWG,TRACKED_BY_METRIC,PE_Ratio,P/E Q4/2024: 30.26 lần,Q4_2024_Financial_Statement
+MWG,TRACKED_BY_METRIC,PB_Ratio,P/B Q4/2024: 3.33 lần,Q4_2024_Financial_Statement
+MWG,TRACKED_BY_METRIC,ROE_LTM,ROE LTM Q4/2024: 14.5%,Q4_2024_Financial_Statement
+MWG,TRACKED_BY_METRIC,Debt_to_Equity_Ratio,D/E Q4/2024: 1.5 lần,Q4_2024_Financial_Statement
+MWG,TRACKED_BY_METRIC,Market_Cap,Vốn hóa Q4/2024: 85.2 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+MWG,TRACKED_BY_METRIC,OHLCV_Time_Series,"Giá đóng cửa cuối: 61,500 VNĐ",Daily_Price_1000_Sessions_2021_2025
+MWG,HAS_FUNDAMENTAL_PROFILE,Large_Mid_Cap_Under_100k_Billion,Vốn hóa = 85.2 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+MWG,HAS_FUNDAMENTAL_PROFILE,Moderate_ROE_Below_18%,ROE LTM = 14.5%,Q4_2024_Financial_Statement
+MWG,HAS_FUNDAMENTAL_PROFILE,Moderate_Leverage_DE_0.6_to_1.5,D/E = 1.5 lần,Q4_2024_Financial_Statement
+MWG,HAS_FUNDAMENTAL_PROFILE,High_PE_Over_30x,P/E = 30.26 lần,Q4_2024_Financial_Statement
+MWG,HAS_FUNDAMENTAL_PROFILE,High_Liquidity_Over_3M_Shares,KLGD TB = 5.33 triệu CP/phiên,Daily_Price_1000_Sessions_2021_2025
+VNM,ISSUED_BY,Vinamilk_Corporation,Mã VNM phát hành bởi Vinamilk_Corporation,HOSE_Official_Disclosure
+VNM,LISTED_ON,HOSE_Exchange,Niêm yết trên Sở GDCK TP.HCM,HOSE_Official_Disclosure
+VNM,BELONGS_TO_SECTOR,Food_And_Beverage_Sector,Thuộc ngành Food_And_Beverage_Sector,HOSE_Official_Disclosure
+Vinamilk_Corporation,BELONGS_TO_SECTOR,Food_And_Beverage_Sector,Doanh nghiệp thuộc ngành Food_And_Beverage_Sector,HOSE_Official_Disclosure
+VNM,INCLUDED_IN_INDEX,VN_Index,Thuộc rổ chỉ số chung VN-Index,HOSE_Official_Disclosure
+VNM,INCLUDED_IN_INDEX,VN30_Index,Phân nhóm rổ chỉ số VN30_Index,HOSE_Official_Disclosure
+VNM,SOURCED_FROM,Historical_Financial_40Q_2015_2024,Dữ liệu báo cáo tài chính (1000 phiên / 40 quý),Historical_Financial_40Q_2015_2024
+VNM,SOURCED_FROM,Daily_Price_1000_Sessions_2021_2025,Chuỗi 1000 phiên giá OHLCV,Daily_Price_1000_Sessions_2021_2025
+VNM,TRACKED_BY_METRIC,Net_Revenue,Doanh thu Q4/2024: 15.48 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+VNM,TRACKED_BY_METRIC,Net_Profit_Parent,LNST Q4/2024: 2123.6 tỷ VNĐ,Q4_2024_Financial_Statement
+VNM,TRACKED_BY_METRIC,PE_Ratio,P/E Q4/2024: 14.16 lần,Q4_2024_Financial_Statement
+VNM,TRACKED_BY_METRIC,PB_Ratio,P/B Q4/2024: 4.33 lần,Q4_2024_Financial_Statement
+VNM,TRACKED_BY_METRIC,ROE_LTM,ROE LTM Q4/2024: 26.55%,Q4_2024_Financial_Statement
+VNM,TRACKED_BY_METRIC,Debt_to_Equity_Ratio,D/E Q4/2024: 0.52 lần,Q4_2024_Financial_Statement
+VNM,TRACKED_BY_METRIC,Market_Cap,Vốn hóa Q4/2024: 132.09 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+VNM,TRACKED_BY_METRIC,OHLCV_Time_Series,"Giá đóng cửa cuối: 62,100 VNĐ",Daily_Price_1000_Sessions_2021_2025
+VNM,HAS_FUNDAMENTAL_PROFILE,Mega_Cap_Over_100k_Billion,Vốn hóa = 132.09 nghìn tỷ VNĐ,Q4_2024_Financial_Statement
+VNM,HAS_FUNDAMENTAL_PROFILE,High_ROE_Over_18%,ROE LTM = 26.55%,Q4_2024_Financial_Statement
+VNM,HAS_FUNDAMENTAL_PROFILE,Low_Leverage_DE_Below_0.6,D/E = 0.52 lần,Q4_2024_Financial_Statement
+VNM,HAS_FUNDAMENTAL_PROFILE,Value_PE_Below_16x,P/E = 14.16 lần,Q4_2024_Financial_Statement
+VNM,HAS_FUNDAMENTAL_PROFILE,High_Liquidity_Over_3M_Shares,KLGD TB = 3.13 triệu CP/phiên,Daily_Price_1000_Sessions_2021_2025
+Net_Revenue,SOURCED_FROM,Q4_2024_Financial_Statement,Trường dữ liệu chuẩn trong _financial.csv,Q4_2024_Financial_Statement
+Net_Profit_Parent,SOURCED_FROM,Q4_2024_Financial_Statement,Trường dữ liệu chuẩn trong _financial.csv,Q4_2024_Financial_Statement
+Total_Assets,SOURCED_FROM,Q4_2024_Financial_Statement,Trường dữ liệu chuẩn trong _financial.csv,Q4_2024_Financial_Statement
+Owners_Equity,SOURCED_FROM,Q4_2024_Financial_Statement,Trường dữ liệu chuẩn trong _financial.csv,Q4_2024_Financial_Statement
+EV_EBITDA,SOURCED_FROM,Q4_2024_Financial_Statement,Trường dữ liệu chuẩn trong _financial.csv,Q4_2024_Financial_Statement
+EPS_Metric,SOURCED_FROM,Q4_2024_Financial_Statement,Trường dữ liệu chuẩn trong _financial.csv,Q4_2024_Financial_Statement
+ROA_LTM,SOURCED_FROM,Q4_2024_Financial_Statement,Trường dữ liệu chuẩn trong _financial.csv,Q4_2024_Financial_Statement
+Gross_Profit_Margin,SOURCED_FROM,Q4_2024_Financial_Statement,Trường dữ liệu chuẩn trong _financial.csv,Q4_2024_Financial_Statement
+Net_Profit_Margin,SOURCED_FROM,Q4_2024_Financial_Statement,Trường dữ liệu chuẩn trong _financial.csv,Q4_2024_Financial_Statement
